@@ -1,0 +1,179 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale =1.0>
+    <title> WEBSITE </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>  
+</head>
+
+  <body>
+    <header >
+     
+      <div class="logo"><a href="#home">Portfo<span>lio.</span></a></div>
+      <div class="menuToggle" onclick="toggleMenu();">  </div>
+      <ul class="navigation">
+      <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu();">About Us</a></li>
+      <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+      <li><a href="#contact" onclick="toggleMenu();">Contact Us</a></li>
+      </ul>
+    </header>
+    <section class="banner" id="home">
+        
+        <div class="content">
+            <div class="text">Hello, my name is </div>
+            <div class="text-1">Kashish Shah</div>
+            
+        </div>
+      </section>
+      <section class="about" id="about">
+            <h2 class="title">About Us</h2>
+            <div class="row">
+          <div class="col50">  
+                  <img src="bg3.jpg" alt="">
+          </div>
+          <div class="col51">
+              <div class="text-3">I'm Kashish and I am a <span>UX Designer</span></div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus enim expedita sint laborum excepturi fugit voluptatibus atque corporis! Vel iusto, assumenda perferendis rerum quis similique animi cupiditate amet aliquid nesciunt?</p>
+              <a href="#">Download CV</a>
+            </div>
+          
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="title">Services</h2>
+            <div class="column">
+          <div class="col52">
+                <div class="box">
+                    <i class="fas fa-paint-brush"></i>
+                    <div class="text-4">Web Design</div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A vitae hic placeat neque.</p>
+                </div>
+          </div>
+          <div class="col52">
+            <div class="box">
+                <i class="fas fa-chart-line"></i>
+                <div class="text-4">Figma Designer/div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A vitae hic placeat neque.</p>
+            </div>
+      </div>
+      <div class="col52">
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <div class="text-4">Apps Design </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A vitae hic placeat neque.</p>
+        </div>
+  </div>
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <div class="title">
+              <h2 class="titletext">Contact me</h2>
+              <div class="av">
+                  <div class="avi">
+                      <div class="text"> Get in touch</div>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptatem numquam laudantium. Molestiae, mollitia iusto?</p>
+                      <div class="icon">
+                          <div class="row">
+                          <i class="fas fa-user">  </i>
+                              <div class="info">
+                                  <div class="head">Name</div>
+                                  <div class="sub">Kashish Shah</div>
+                              </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                                <div class="info">
+                                    <div class="head">Address</div>
+                                    <div class="sub">mumbai, india</div>
+                                </div>
+                          </div>
+                          <div class="row">
+                            <i class="fas fa-envelope">  </i>
+                                <div class="info">
+                                    <div class="head">Name</div>
+                                    <div class="sub">abc@gmail.com</div>
+                                </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="contactform">
+                        <h3>Send Message</h3>
+                        <form action="user.php" method="POST">
+                            <div class="input">
+                        <div class="inputbox in">
+                          <input type="text" name="name" placeholder="Name">
+                        </div>
+                        <div class="inputbox inn">
+                          <input type="text" name="email" placeholder="Email">
+                        </div>
+                    </div>
+                        <div class="inputbox a">
+                            <input type="text" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="inputbox textarea">
+                          <textarea cols="30" rows="10" name="description" placeholder="Describe the work you need"></textarea>
+                        </div>
+                        <div class="inputbox button">
+                          <button type="submit" >Send Message</button>
+                        </div>
+                    </form>
+                      </div>
+
+              </div>
+            </div>
+            </section>
+
+            <footer>
+              <div class="rower">
+                  <div class="abc">
+                      <img src="logo.png" class="logo">
+                      <p>My website is perfectly designed and well protected</p>
+                  </div>
+                  <div class="abc">
+                      <h3>Office <div class="underline"><span></span></div></h3>
+                      <p>King's Road</p>
+                      <p>White Road, Ahmedabad</p>
+                      <p>Gujarat, PIN 021234, India</p>
+                      <p class="email-id">kashishshah2302@gmail.com </p>
+                      <h4>+91 - 0123456789</h4>
+                  </div>
+                  <div class="abc">
+                      <h3>Links <div class="underline"><span></span></div></h3>
+                      <ul>
+                          <li><a href="">Home</a></li>
+                          <li><a href="">Services</a></li>
+                          <li><a href="">About Us</a></li>
+                          <li><a href="">Contact Us</a></li>
+                      </ul>
+                  </div>
+                  <div class="abc">
+                      <h3>Newsletter <div class="underline"><span></span></div></h3>
+                      
+                      <form>
+                          <i class="far fa-envelope"></i>
+                          <input type="email" placeholder="Enter your email id" required>
+                          <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                      </form>
+                      <div class="social-icons">
+                          <i class="fab fa-facebook-f"></i>
+                          <i class="fab fa-twitter"></i>
+                          <i class="fab fa-whatsapp"></i>
+                          <i class="fab fa-pinterest"></i>
+                      </div>
+                  </div>
+              </div>
+              <hr>
+              <p class="copyright">Kashish Shah @ 2021 - All Rights Reserved</p>
+          </footer>
+                <script src="script.js"></script>
+     
+  </body>
+  </html>

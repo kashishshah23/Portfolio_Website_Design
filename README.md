@@ -1,2 +1,1 @@
-# Portfolio_Website_Design
-I designed a portfolio website using HTML, CSS, and PHP
+The portfolio website is made of Html, css, javascript php and mysql. It is pratice website to show how much skill i have.
